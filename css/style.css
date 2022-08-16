@@ -1,7 +1,4 @@
-.bg-black{
-    background-color: #000000;
-}
-
+/* Header */
 .navbar-brand img {
 	height: 70px;
 }
@@ -16,28 +13,52 @@
 }
 
 .nav-item .nav-link{
-	font-size: 20px;
+	font-size: 18px;
 } 
 
+li{
+	margin-left: 30px;
+}
+
+/* Carousel */
 .banner .container-fluid {
 	padding:0!important;
 }
 .banner {
 	margin-top: 76px;
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+	background-image:url(../圖片/carton.jpg);
+	background-size: 100% 100%;
 }
 .banner .container-fluid {
 	padding:0!important;
 }
 
-.carousel .carousel-item{
-	width: 100%;
-	height: auto;
+.c-container{
+	max-width: 60%;
 }
 
+/* Introduct */
+.introduct{
+	margin: 100px 20%;
+}
+
+.introduct p{
+	font-size: 20px;
+}
+
+.introduct .row{
+	color: gray;
+}
+
+
+/* Footer */
 .footer{
+	display: flexbox;
 	background-color: rgb(204, 195, 195);
-	padding : 20px;
-	
+
 }
 .footer p{
 	font-size: 16px;
@@ -48,14 +69,23 @@
 	display: inline-block;
 }
 
-.footer-container{
-	max-width: 800px;
-	display: flex;
-	justify-content: space-between;
-}
-
-@media only screen and (min-width: 1280px){
-	li{
-		margin-left: 30px;
+/* @media only screen and (min-width: 1200px){
+	
+	
+	.c-container{
+		max-width: 887px;
+		max-height: 666px;
+		
 	}
-}
+} 
+
+@media only screen and (min-width: 887px){
+	li{
+		margin-left: 10px;
+	}
+	.c-container{
+		max-width: 724px;
+		max-height: 543px;
+		
+	}
+} */
