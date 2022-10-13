@@ -240,7 +240,7 @@ header ul.nav li {
 }
 
 header ul.nav li a {
-	font-size:12px;
+	font-size:16px;
 	border:none;
 	font-weight:700;
 	text-transform:uppercase;
@@ -831,7 +831,8 @@ ul.portfolio-categ li a{
 	color:#353535;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #A71F4A;
+
+border: 1px solid #A71F4A;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
