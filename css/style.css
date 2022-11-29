@@ -64,7 +64,8 @@ img.img-polaroid {
 	max-width:100%;
 }
 p {
-    color: #555;
+    color: #000;
+	font-size: 16px;
 }
 h2{
 font-size:22px;
@@ -1471,7 +1472,6 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
 
 .clear-marginbot{
 	margin-bottom:0;
